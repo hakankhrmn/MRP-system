@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="645.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="btnPrintAll" layoutX="452.0" layoutY="181.0" mnemonicParsing="false" onAction="#print" text="Print All MRPs" />
+      <Label layoutX="246.0" layoutY="39.0" prefHeight="35.0" prefWidth="164.0" text="MRP SYSTEM" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <Label layoutX="93.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="1">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="143.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="2">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="193.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="3">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="243.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="4">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="293.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="5">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="343.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="6">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="393.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="7">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="443.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="8">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="493.0" layoutY="106.0" prefHeight="21.0" prefWidth="16.0" text="9">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <Label layoutX="538.0" layoutY="106.0" prefHeight="21.0" prefWidth="23.0" text="10">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </Label>
+      <TextField fx:id="txtW1" layoutX="78.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW2" layoutX="128.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW3" layoutX="178.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW4" layoutX="228.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW5" layoutX="278.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW6" layoutX="328.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW7" layoutX="378.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW8" layoutX="428.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW9" layoutX="478.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <TextField fx:id="txtW10" layoutX="528.0" layoutY="136.0" prefHeight="31.0" prefWidth="45.0" />
+      <Button fx:id="btnAplyDemands" layoutX="76.0" layoutY="181.0" mnemonicParsing="false" onAction="#fillAllMRPs" text="Apply the Demands" />
+      <Label layoutX="137.0" layoutY="74.0" text="Weeks">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Label>
+      <TextArea fx:id="txtArea" layoutX="21.0" layoutY="361.0" prefHeight="417.0" prefWidth="603.0" />
+      <TextField fx:id="txtItemID" layoutX="75.0" layoutY="285.0" promptText="Item Id" />
+      <Button fx:id="btnItemMRP" layoutX="296.0" layoutY="269.0" mnemonicParsing="false" onAction="#printItemMRP" text="Get MRP of Item" />
+      <Button fx:id="btnItemConstant" layoutX="296.0" layoutY="314.0" mnemonicParsing="false" onAction="#printItemConstant" text="Get Constants of Item" />
+      <Button fx:id="btnAplyDefaults" layoutX="76.0" layoutY="227.0" mnemonicParsing="false" onAction="#fillApplyDefaults" text="Apply Default Demands" />
+      <Label layoutX="294.0" layoutY="217.0" prefHeight="21.0" prefWidth="332.0" text="You can see the all output on the system output!!" />
+   </children>
+</Pane>
